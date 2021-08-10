@@ -1,0 +1,103 @@
+<html>
+    <head>
+    <style>
+     button{
+  background-color: #F36;
+  border:none;
+  color:#fff;
+  padding: 10px 20px;
+  text-align:center;
+  font-size:20px;
+}
+#black{
+background:linear-gradient(red);
+}
+/*
+     h2{
+    color:green;
+    animation: avi 20s linear 1s infinite;
+}
+@keyframes avi {
+    10%{
+      color:darkslategrey;
+      border-color:red;
+     outline: 6px solid green;
+    }
+     20%{
+      color:violet;
+      border-color:green;
+      outline: 6px solid blue;
+    }
+     30%{
+      color:hotpink;
+      border-color:blue;
+      outline: 6px solid orange;
+    }
+     40%{
+      color:indigo;
+      border-color:orange;
+      outline: 6px solid red;
+    }
+     50%{
+      color:blue;
+      border-color:blue;
+      outline: 6px solid yellow;
+    }
+     60%{
+      color:green;
+      border-color:green;
+      outline: 6px solid pink;
+    }
+     70%{
+      color:yellow;
+      border-color:yellow;
+      outline: 6px solid orange;
+    } 80%{
+      color:dimgray;
+      border-color:dimgray;
+     outline: 6px solid violet;
+    } 90%{
+      color:cyan;
+      border-color:cyan;
+     outline: 6px solid red;
+    }
+    100%{
+      color:hotpink;
+      border-color:blue;
+     outline: 6px solid hotpink;
+    }
+}
+*/
+body{
+outline: 6px solid green;
+}
+#input
+{
+border-left: 6px solid hotpink;
+}
+    </style>
+
+<script>
+function compile() {
+    var input = document.getElementById("input").value;
+    eval(input);
+} 
+</script>
+        <title>JS Compiler</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1">
+    </head>
+    
+    <body>
+        <div align="center">
+            <h2>JavaScript Compiler</h2>
+            <textarea id="input" rows="35" cols="36" noresize></textarea><br>
+<br>            
+<button id="btn" onclick="compile()">Output</button>
+        </div>
+<div align="center" id="black">
+<br/>
+<br/>
+<code>Developed By Amritanshu Keshari<code>
+</div>
+    </body>
+</html> 
